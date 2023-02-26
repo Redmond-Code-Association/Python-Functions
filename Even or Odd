@@ -1,0 +1,12 @@
+def check(num):
+    oddOrEven = False
+    if num % 2 == 0:
+        oddOrEven = False
+    else:
+        oddOrEven = True
+    
+    print("\n")
+    print(oddOrEven)
+    print("\n")
+
+check(4)
