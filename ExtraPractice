@@ -1,0 +1,29 @@
+numDict = {
+    "one" : 1,
+    "two" : 2,
+    "three" : 3,
+    "four" : 4,
+    "five" : 5,
+    "six" : 6,
+    "seven" : 7,
+    "eight" : 8,
+    "nine" : 9,
+    "ten" : 10
+}
+
+def checkLength(dict, length):
+    tOrf = False
+    i = 0
+    for x in dict:
+        i = i + 1
+
+    if length == i:
+        tORf = True
+    else:
+        tORf = False
+
+    print("\n")
+    print(tORf)
+    print("\n")
+
+checkLength(numDict, 10)
