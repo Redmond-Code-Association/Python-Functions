@@ -4,7 +4,13 @@ class classCar:
 		self.numOfSeats = numOfSeats
 		self.milagePerHour = milagePerHour
 	
+	def tellFuelType(self):
+		print("The fuel type is" + self.fuelType)
+	
 car1 = classCar("petrol", 6, 40)
+
+
+car1.tellFuelType() 
 
 print(car1.fuelType)
 print(car1.numOfSeats)
