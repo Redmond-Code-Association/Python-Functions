@@ -1,10 +1,11 @@
-class carClass:
-  def_init_(self, fueltype, numofseats, milagePerHour ):
-    self.feultype = fueltype
-    self.numofseats = numofseats
-    self.milage = milagePerHour
+class classCar:
+	def __init__(self, fuelType, numOfSeats, milagePerHour):
+		self.fuelType = fuelType
+		self.numOfSeats = numOfSeats
+		self.milagePerHour = milagePerHour
+	
+car1 = classCar("petrol", 6, 40)
 
-car1 = carclass("petrol", 6, 40)
-print(car1.fueltype)
-print(car1.milage)
-print(car1.numofseats)
+print(car1.fuelType)
+print(car1.numOfSeats)
+print(car1.milagePerHour)
